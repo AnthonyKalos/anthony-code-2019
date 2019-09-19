@@ -37,7 +37,7 @@ First Name:<input type=text id="myText01" value="Fred"><br>
 <select id="mySelect01" size=2>
 <option value='myOne'>One
 <option value='myTwo'>Two
-<option value='mythree'>Three
+<option value='myThree'>Three
 </select>
 
 </form>
