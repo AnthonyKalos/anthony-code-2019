@@ -1,9 +1,9 @@
 <script>
    let myInterval
    
-function myIsOnScreen[]{
-   if [parseInt[document.getElementById['myDiv01'].style.left] > 400] {
-     document.getElementById['Div01'].style.left = '397px'
+function myIsOnScreen(){
+   if [parseInt[document.getElementById('myDiv01').style.left) > 400] {
+     document.getElementById('Div01').style.left = '397px'
    }
 }
 
@@ -12,16 +12,16 @@ function myIsOnScreen[]{
 <body onkeydown="{
 
      let myKey = event.key
- //  let myKey = String.toLowerCase[event.key]
+ //  let myKey = String.toLowerCase(event.key)
  
-   if [myKey == 'd'] {
-      clearInterval[myInterval]
-      myInterval = setInterval[function[]{
+   if (myKey == 'd') {
+      clearInterval(myInterval)
+      myInterval = setInterval(function(){
       
-         document.getElementById['myDiv01'].style.left =
-             parseInt[document.getElement.getElementById['myDiv01'].style.left] + 3
-         myIsOnScreen[]
-      } ,20]
+         document.getElementById('myDiv01').style.left =
+             parseInt(document.getElement.getElementById('myDiv01').style.left) + 3
+         myIsOnScreen()
+      } ,20)
    }
    
 }">
