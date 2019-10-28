@@ -1,0 +1,18 @@
+<h1 align=center>t1a03-loops-anthony.html</h1>
+
+
+
+<input type=text id="myText01" value="3"><br>
+
+<input type=button value="Loop" onclick="{
+
+   let myTemp = document.getElementById('myDiv01').value
+   let mySum = ''
+   document.getElementById('myDiv01').innerHTML = ' '
+   
+   for (let my Loop=0;   myLoop < myTemp;  myLoop++){
+      mySum += 'Loop #: '+myLoop+'<br>'
+      }document.getElementById('myDiv01').innerHTML = mySum
+}">
+
+<div id="myDiv01">...</div>
