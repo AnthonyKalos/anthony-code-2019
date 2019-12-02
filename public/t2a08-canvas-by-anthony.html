@@ -2,3 +2,33 @@
 You use loops and variables  to make fast fancy drawings <br><br>
 
 <input type=button value=".lineTo(30,200)" onclick
+   myContent.beginPath();
+   myContent.linewidth = 1;
+   myContent.moveTo(20,20);
+   myContent.lineTo(30,200);
+   myContent.stroke();
+}">
+
+<input type=button value=".arc(95, 50, 40, 0, 2 * Math.PI)" onclick="{
+   myContent.beginPath();
+   myContent.linewidth = 10;
+   myContent.strokeStyle = 'green';
+   myContent.arc(95, 50, 0, 2 * Math.PI);
+   myContent.stroke();
+}">
+  
+<input type=button value=".fillText('Hello World', 400, 100)" onclick="{
+   myContent.font = '20px Arial';
+   myContent.fillText('Hello World', 400, 100)
+   myContent.translate(400, 100);
+   myContent.rotate(60 * Math.PI / 180);
+   myContent.fillText('Hello World', 10, 10);
+}">
+
+<input type=button value=".quadraticCurveTo(100,220,240,110)" onclick="{
+   myContent.beginPath();
+   myContent.moveTo(300,100);
+   myContent.quadraticCurveTo(100,220,240,110);
+   myContent.stroke();
+   
+}">
